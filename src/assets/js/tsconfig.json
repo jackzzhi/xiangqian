@@ -1,0 +1,149 @@
+{
+  "code": 200,
+  "msg": "请求成功",
+  "data": {
+    "itemNo": null,
+    "itemTitle": "今日出借计划分布",
+    "itemUnit": null,
+    "itemColor": null,
+    "displayMode": null,
+    "dataList": [
+      {
+        "name": null,
+        "type": null,
+        "pieLegend": {
+          "data": [
+            "捷e盈-365天（A型）1.0",
+            "捷e盈-180天1.0",
+            "捷e盈-90天1.0",
+            "捷e盈-24月期（A型）1.0",
+            "捷e盈-36月期（A型）1.0",
+            "捷e盈-36月期（B型）1.0",
+            "新手计划1.0",
+            "捷e盈-365天（B型）1.0",
+            "捷e盈-24月期（B型）1.0"
+          ]
+        },
+        "series": {
+          "type": null,
+          "radius": [
+            "50%",
+            "70%"
+          ],
+          "color": [],
+          "data": [
+            {
+              "name": "捷e盈-365天（A型）1.0",
+              "value": "53%",
+              "data": [
+                {
+                  "value": 53
+                },
+                {
+                  "value": 47
+                }
+              ]
+            },
+            {
+              "name": "捷e盈-180天1.0",
+              "value": "18%",
+              "data": [
+                {
+                  "value": 18
+                },
+                {
+                  "value": 82
+                }
+              ]
+            },
+            {
+              "name": "捷e盈-90天1.0",
+              "value": "7%",
+              "data": [
+                {
+                  "value": 7
+                },
+                {
+                  "value": 93
+                }
+              ]
+            },
+            {
+              "name": "捷e盈-24月期（A型）1.0",
+              "value": "6%",
+              "data": [
+                {
+                  "value": 6
+                },
+                {
+                  "value": 94
+                }
+              ]
+            },
+            {
+              "name": "捷e盈-36月期（A型）1.0",
+              "value": "5%",
+              "data": [
+                {
+                  "value": 5
+                },
+                {
+                  "value": 95
+                }
+              ]
+            },
+            {
+              "name": "捷e盈-36月期（B型）1.0",
+              "value": "4%",
+              "data": [
+                {
+                  "value": 4
+                },
+                {
+                  "value": 96
+                }
+              ]
+            },
+            {
+              "name": "新手计划1.0",
+              "value": "3%",
+              "data": [
+                {
+                  "value": 3
+                },
+                {
+                  "value": 97
+                }
+              ]
+            },
+            {
+              "name": "捷e盈-365天（B型）1.0",
+              "value": "3%",
+              "data": [
+                {
+                  "value": 3
+                },
+                {
+                  "value": 97
+                }
+              ]
+            },
+            {
+              "name": "捷e盈-24月期（B型）1.0",
+              "value": "1%",
+              "data": [
+                {
+                  "value": 1
+                },
+                {
+                  "value": 99
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "page": null
+}

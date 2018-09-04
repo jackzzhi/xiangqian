@@ -1,0 +1,378 @@
+@font-face {
+  font-family: ReeJi-BigRuixain-BoldGB;
+  src: url("../font/ReeJi-BigRuixain-BoldGB.ttf");
+}
+.hello{
+  width: 100%;
+  /*height:1080px;*/
+
+  background: url("../images/bottom.jpg") no-repeat center;
+  background-size: 100% 100%;
+}
+@media screen and (max-width: 1920px) {
+  .hello {
+    width: 1920px;
+  }
+
+}
+@media screen and (min-width: 1920px) {
+
+  .left{
+    margin-top: 4.8%;
+  }
+}
+.main{
+  width: 100%;
+  height:100%;
+  display: flex;
+  background: url("../images/border.png") no-repeat center;
+  background-size:100% 100%;
+}
+.left{
+  width: 25%;
+  margin-left: 2%;
+  margin-top: 4.8%;
+}
+.left .left-top{
+
+  height: 21%;
+  background: url("../images/left-top.png") no-repeat center;
+  background-size:100% 100%;
+  position: relative;
+}
+.left .left-top .money{
+height: 25px;
+}
+.left .left-moddle{
+  height:31%;
+  background: url("../images/left-moddle.png") no-repeat center;
+  background-size:100% 100%;
+  position: relative;
+  margin-top: 2%;
+}
+.left .left-moddle .money{
+  height: 25px;
+}
+.left .left-bottom{
+  height: 37.5%;
+  background: url("../images/left-bottom.png") no-repeat center;
+  background-size:100% 100%;
+  position: relative;
+  margin-top: 2%;
+}
+
+.left .money-name{
+ width: 192px;
+  height: 20px;
+  position: absolute;
+  top: 11%;
+  left: 7%;
+  padding-bottom: 10px;
+}
+.money-name img{
+  width: 100%;
+}
+.trend1-name{
+  width: 231px;
+  height: 20px;
+  position: absolute;
+  top: 8%;
+  left: 7%;
+  padding-bottom: 10px;
+}
+.trend1-name img{
+  width: 100%;
+}
+.trend-name{
+  width: 186px;
+  height: 20px;
+  position: absolute;
+  top: 2%;
+  left: 5%;
+  padding-bottom: 10px;
+}
+.trend-name img{
+  width: 100%;
+}
+.left .money-scale{
+  font-family: 微软雅黑;
+   color: #686868;
+   position: absolute;
+   top: 10%;
+   right: 8%;
+  font-size: 13px;
+  line-height: 20px;
+  /*font-style: italic;*/
+  border: 1px solid #303030;
+  padding: 2px 6px;
+  border-radius: 10px;
+
+ }
+.lend-scale{
+  font-family: 微软雅黑;
+  color: #686868;
+  position: absolute;
+  top: 6%;
+  right: 8%;
+  font-size: 13px;
+  line-height: 20px;
+  /*font-style: italic;*/
+  border: 1px solid #303030;
+  padding: 2px 6px;
+  border-radius: 10px;
+}
+.trend-scale{
+  font-family: 微软雅黑;
+  color: #686868;
+  position: absolute;
+  top: 8%;
+  right: 8%;
+  font-size: 13px;
+  line-height: 20px;
+  /*font-style: italic;*/
+  border: 1px solid #303030;
+  padding: 2px 6px;
+  border-radius: 10px;
+
+}
+.trend-login{
+  width: 100%;
+  /*display: flex;*/
+  /*padding-left: 13%;*/
+  /*margin-top: 13px;*/
+  position: absolute;
+  bottom:8%;
+  left: 10%;
+}
+.trend-login .trend-main{
+  width:40%;
+  height: 65px;
+  display: flex;
+  background:url("../../assets/images/lenddi.png") no-repeat center;
+  background-size: 100% 100%;
+  margin-left: 5px;
+
+}
+.trend-login .trend-main:first-child{
+  margin-right:10px;
+  float: left;
+}
+.trend-login .trend-main .trend-login-left{
+  width: 40px;
+  position: relative;
+}
+.trend-login .trend-main .trend-login-left img{
+  width: 25px;
+  height: 6px;
+position: absolute;
+  top: 43%;
+  left: 57%;
+  margin-top:1px;
+}
+.trend-login .trend-main .trend-login-right{
+
+  margin-left: 13%;
+  margin-top: 6.1%;
+}
+.trend-login .trend-main .trend-login-right .login-right-top{
+  color: #ffff0d;
+  font-size: 15px;
+  font-family: 微软雅黑;
+  /*line-height: 35px;*/
+  font-style: italic;
+}
+.trend-login .trend-main .trend-login-right .login-right-bottom{
+  font-family: DINCondensedC-2;
+  color: #ffffff;
+  font-style: italic;
+  font-size: 20px;
+  line-height: 26px;
+}
+.trend-login .trend-main .trend-login-right .login-right-bottom span{
+  font-family: ReeJi-BigRuixain-BoldGB;
+  font-size: 17px;
+}
+
+.lendlist{
+  width: 100%;
+  /*margin-left: 70px;*/
+  margin-top: 1%;
+  position: absolute;
+  bottom: 8%;
+  left: 15%;
+}
+.lendlist .lendmoney{
+  width: 39%;
+  height: 61px;
+  float: left;
+  background:url("../../assets/images/lenddi.png") no-repeat center;
+  background-size: 100% 100%;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.lendlist .lendmoney .lendtext{
+text-align: center;
+  margin-top: 12px;
+}
+.lendlist .lendmoney .lendtext .lendname{
+  font-family: 微软雅黑;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: 13px;
+  color: #ffff0d;
+}
+.lendlist .lendmoney .lendtext .lendsalse{
+  font-family: DINCondensedC-2;
+  font-size: 19px;
+  font-weight: normal;
+  font-style: italic;
+  color: #ffffff;
+  margin-top: 5px;
+}
+.lendsalse span{
+  font-family: ReeJi-BigRuixain-BoldGB;
+  font-size: 17px;
+}
+.moddle{
+/*width: 50%;*/
+  flex: 1;
+  margin-top: 120px;
+  position: relative;
+}
+.moddle .moddle-top{
+  width:570px;
+
+  background: url("../images/date.png") no-repeat center;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -267px;
+  /*font-family: PangMenZhengDao;*/
+  display: flex;
+}
+.moddle .moddle-top .top-name{
+  font-size: 30px;
+  font-weight: normal;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: 50px;
+  letter-spacing: 3px;
+  color: #ffffff;
+  margin-left: 7%;
+  font-family: ReeJi-BigRuixain-BoldGB;
+}
+.moddle .moddle-top .top-time{
+  margin-left: 9%;
+  font-style: italic;
+  font-size: 24px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  color: #ebc907;
+  line-height: 50px;
+  font-family: DINCondensedC-2;
+}
+.moddle .moddle-odoo{
+  width: 100%;
+  height: 61px;
+  /*font-family: PangMenZhengDao;*/
+  font-size: 75px;
+  font-weight: normal;
+  font-style: italic;
+  font-stretch: normal;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  margin-left: -350px;
+  color: #ffffff
+}
+.moddle .moddle-list{
+  width: 860px;
+  height: 80px;
+  position: absolute;
+  left: 50%;
+  top:15%;
+  margin-left: -420px;
+  display: flex;
+}
+.moddle .moddle-list .moddle-list1{
+  width: 21%;
+  height: 80px;
+  margin-right: 10px;
+  text-align: center;
+background: url("../images/moddle-list1.png") no-repeat center;
+  background-size: 100% 100%;
+ padding: 0 10px;
+}
+.moddle .moddle-list .moddle-list1:first-child{
+  width: 23%;
+}
+.moddle .moddle-list .moddle-list1:last-child{
+  width: 23%;
+}
+.moddle .moddle-list .M-list-name{
+  font-family: 微软雅黑;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: 19px;
+  color: #ffff0d;
+  margin-top: 7%;
+
+}
+.moddle .moddle-list .M-list-num{
+  font-family: DINCondensedC-2;
+  font-style: italic;
+  font-size: 19px;
+  font-weight: normal;
+  color: #ffffff;
+}
+.M-list-num span{
+  font-family: ReeJi-BigRuixain-BoldGB;
+  font-size: 17px;
+}
+.moddle .moddle-map{
+  position: absolute;
+  top: 50%;
+  margin-top: -320px;
+  left: 50%;
+  margin-left: -500px;
+  background: url("../images/map.png") no-repeat center;
+  background-size: 78%;
+  background-position: 111px 78px;
+}
+
+.right{
+  width: 25%;
+  /*height: 100%;*/
+  /*background: black;*/
+  margin-top: 4.8%;
+  margin-right: 39px;
+}
+.right .right-top{
+  /*width: 300px;*/
+  width: 100%;
+  height: 31.5%;
+  background: url("../../assets/images/rankimg/right-top.png") no-repeat center;
+  background-size: 100% 100%;
+}
+.right .right-moddle{
+  height: 20.5%;
+  background: url("../../assets/images/right-moddle.png") no-repeat center;
+  margin-top:-1%;
+  background-size: 100% 100%;
+  position: relative;
+}
+.right .right-bottom{
+
+  height: 37%;
+  background: url("../../assets/images/right-bottom.png") no-repeat center;
+  margin-top:-1%;
+  background-size: 100% 100%;
+}
+.c48{
+  width: 100%;
+  height: 21px;
+}
