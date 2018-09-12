@@ -5,11 +5,12 @@
     <div style="height: 102px;margin-top: 66px;" class="pe">
       <div class="perfor-main">
 
-        <div class="perfor-num">{{this.curN2}} <span>元</span>  </div>
+
         <div class="name">北 部</div>
         <div id="box">
 
           <div id="bar"></div>
+          <div class="perfor-num">{{this.curN2}} <span>元</span>  </div>
         </div>
       </div>
       <div class="perfor-main perfor-main2">
@@ -56,9 +57,8 @@
             "displayMode":"11"
           }),
         }).then( (res)=>{  // 请求成功
-          this.curN2=res.data.data.dataList[0].value;
           this.curN=res.data.data.dataList[1].value;
-          // console.log(res.data.data.dataList)
+          this.curN2=res.data.data.dataList[0].value;
           this.show();
           this.show2();
 
@@ -69,13 +69,25 @@
           var o = document.getElementById("bar2");
           var curN=this.curN.replace(/,/g,'');
           var curN2=this.curN2.replace(/,/g,'');
-          o.style.width = ((curN /curN2) * 317) + 'px'; //635是外框的宽度
+          if(curN > curN2){
+            $('.perfor-num2').css('right','10%')
+            o.style.width = ((curN /curN) * 317) + 'px';
+          }else if(curN2 > curN){
+            $('.perfor-num2').css('right','auto')
+            o.style.width = ((curN /curN2) * 317) + 'px'
+          }
         },
         show2(){
           var o = document.getElementById("bar");
           var curN=this.curN.replace(/,/g,'');
           var curN2=this.curN2.replace(/,/g,'');
-          o.style.width = ((curN2 /curN2) * 317) + 'px'; //635是外框的宽度
+          if(curN > curN2){
+            $('.perfor-num').css('right','auto')
+            o.style.width = ((curN2 /curN) * 317) + 'px';
+          }else if(curN2 > curN){
+            $('.perfor-num').css('right','10%')
+            o.style.width = ((curN2 /curN2) * 317) + 'px'
+          }
         }
     }
   }
@@ -118,7 +130,7 @@
   display: inline-block;
   font-family: DINCondensedC-2;
   position: absolute;
-  right:17%;
+  right: 17%;
   top:28%;
   font-size: 20px;
   font-weight: normal;

@@ -53,6 +53,7 @@
           }),
         }).then((res)=>{  // 请求成功
         this.bingN1=res.data.data.dataList[0].series.data[0].name;
+        // console.log(this.bingN1)
         this.bingV1=res.data.data.dataList[0].series.data[0].value;
         this.formatter1=res.data.data.dataList[0].series.data[0].data[0].value;
         this.formatter11=res.data.data.dataList[0].series.data[0].data[1].value;
